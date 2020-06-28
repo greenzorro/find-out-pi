@@ -83,7 +83,10 @@ a {
 .calculation b {
 	font-size: 36px;
 }
-.current b {
+.crossCount b.current {
+	color: #FF5A39;
+}
+.nonCrossCount b.current {
 	color: #31b5bd;
 }
 .calculation a {
