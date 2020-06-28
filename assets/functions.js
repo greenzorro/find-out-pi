@@ -33,9 +33,11 @@ function throwOnce () {
 	if (isCross(anchorX, anchorY, rotation)) {
 		crossCount++;
 		$('.crossCount').addClass('current');
+		$('.needle').addClass('needle-cross');
 	} else {
 		nonCrossCount++;
 		$('.nonCrossCount').addClass('current');
+		$('.needle').removeClass('needle-cross');
 	}
 	updateData(anchorX, anchorY, rotation);
 	console.log("x:"+anchorX+" | y:"+anchorY+" | rotation:"+rotation);
