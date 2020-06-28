@@ -40,6 +40,9 @@ a {
 	left: 200px;
 	top: 175px;
 }
+.graph .needle-cross {
+	background: #AD5A5A;
+}
 .throw {
 	float: left;
 	display: block;
