@@ -1,0 +1,111 @@
+/*global*/
+body { font-family: 'microsoft yahei','stheiti',sans-serif; color: #333; font-size: 1em; }
+.title { margin: 50px 0 0; font-size: 2em; font-weight: normal; text-align: center; }
+.copyright { margin: 50px 0 50px; padding: 20px 0 0; border-top: 1px solid #eee; text-align: center; color: #aaa; }
+
+
+
+
+
+/*page*/
+a {
+	color: #31b5bd;
+}
+.container {
+	width: 75em;
+	margin: 5em auto 0;
+}
+.graph-container {
+	float: left;
+	width: 48%;
+}
+.graph {
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	background: #fafafa;
+	border: 1px solid #ddd;
+	position: relative;
+}
+.graph p {
+	height: 1px;
+	margin-top: 49px;
+	background: #ddd;
+}
+.graph .needle {
+	width: 2px;
+	height: 50px;
+	background: #31b5bd;
+	position: absolute;
+	left: 200px;
+	top: 175px;
+}
+.throw {
+	float: left;
+	display: block;
+	margin-top: 20px;
+	text-align: center;
+}
+.throw-once {
+	width: 190px;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 20px;
+	background: #31b5bd;
+	color: #fff;
+}
+.throw-more {
+	width: 188px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #31b5bd;
+}
+.calculation {
+	float: right;
+	width: 48%;
+}
+.calculation p {
+	float: left;
+	margin-right: 40px;
+}
+.calculation div {
+	margin: 40px 0;
+}
+.calculation span {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #777;
+}
+.calculation b {
+	font-size: 36px;
+}
+.current b {
+	color: #31b5bd;
+}
+.calculation a {
+	display: block;
+	width: 188px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #ddd;
+	text-align: center;
+	color: #aaa;
+}
+h2 {
+	padding: 0 0 0.5em;
+	font-size: 1.5em;
+}
+.info {
+	width: 30em;
+	margin: 5em auto 0;
+}
+.info h2 {
+	padding: 1em 0 0.5em;
+}
+.info p {
+	line-height: 1.5;
+	padding: 0 0 0.8em;
+	font-size: 0.9em;
+}
+

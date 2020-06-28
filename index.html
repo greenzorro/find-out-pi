@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>find out pi</title>
+<link href="http://greenzorro.github.io/colacdn/assets/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="assets/style.css" rel="stylesheet" type="text/css" />
+<script src="http://greenzorro.github.io/colacdn/assets/js/jquery-latest.js"></script>
+<script src="assets/functions.js"></script>
+</head>
+
+<body>
+<h1 class="title">find out pi</h1>
+
+<div class="container clearfix">
+
+    <div class="graph-container">
+        <h2>throw needles</h2>
+        <div class="graph">
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <div class="needle"></div>
+        </div>
+        <div class="clearfix">
+          <a class="throw-once throw" href="javascript:;">扔1次</a>
+          <a class="throw-more throw" href="javascript:;">扔100次</a>
+        </div>
+    </div>
+
+    <div class="calculation">
+        <h2>calculation</h2>
+        <div class="clearfix">
+          <p class="crossCount"><span>压线次数</span><b>0</b></p>
+          <p class="nonCrossCount"><span>未压线次数</span><b>0</b></p>
+          <p class="throwCount"><span>总投掷次数</span><b>0</b></p>
+        </div>
+        <div class="clearfix">
+          <p class="pi"><span>2×总投掷次数/压线次数</span><b>0</b></p>
+        </div>
+        <a class="reset" href="javascript:;">重置数据</a>
+    </div>
+
+</div>
+
+<div class="info">
+    <h2>蒲丰投针问题</h2>
+    <p>这是18世纪法国数学家蒲丰提出的一种计算圆周率的方法，完全不必用到圆。</p>
+    <p>在纸上画等距的平行线，并且找一根长度与平行线间距相等的针，反复投掷。投掷总次数与针压线的次数，比值竟然与圆周率π有关系。通过这种方式，可以大量投掷得到接近于π的数。</p>
+</div>
+
+<p class="copyright">designed and coded by <a href="http://colachan.com/" target="blank">可乐橙</a></p>
+
+<div style="display:none;">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-28088765-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</div>
+</body>
+</html>
