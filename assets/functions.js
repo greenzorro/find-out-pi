@@ -12,7 +12,7 @@ function actionInitialize () {
 		throwOnce();  //投掷一次
 	})
 	$('.throw-more').click(function () {
-		for (var i = 0; i < 100; i++) {  //循环投掷
+		for (var i = 0; i < 500; i++) {  //循环投掷
 			throwOnce();
 		}
 	})
