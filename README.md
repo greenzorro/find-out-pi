@@ -1,5 +1,5 @@
-# find out π
+# Find out π
 
-find out π by throwing needles, without using a circle
+Throw needles to approach π. Another way to get it without any circles.
 
 https://greenzorro.github.io/find-out-pi/
