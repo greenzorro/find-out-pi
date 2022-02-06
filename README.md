@@ -1,4 +1,4 @@
-# Find out π
+# find-out-pi
 
 Throw needles to approach π. Another way to get it without any circles.
 
