@@ -6,4 +6,4 @@ https://greenzorro.github.io/find-out-pi/
 
 ---
 
-Created by [Victor_42](https://victor42.work/)
+Created by [Victor42](https://victor42.work/)
